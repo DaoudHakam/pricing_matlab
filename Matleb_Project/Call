@@ -1,0 +1,3 @@
+ST = 0:100;
+[Call,~]=blsprice(ST,50,0.1,0,0.4);
+Call_plot=plot(ST,call);
